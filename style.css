@@ -7,3 +7,13 @@
   --brown: rgb(104, 73, 50); /* Rustic Brown (Text/Depth) */
   --gray: rgb(200, 190, 180); /* Soft Gray (Subtle Text or Borders) */
 }
+
+body {
+  background-color: var(--beige);
+}
+ul {
+  background-color: var(--brown);
+}
+p#beige {
+  background-color: black;
+}
