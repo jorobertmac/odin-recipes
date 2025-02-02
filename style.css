@@ -9,6 +9,8 @@
 }
 
 body {
+  font-family: "Frank Ruehl CLM";
+  font-size: 1.2rem;
   background-color: var(--beige);
 }
 ul {
@@ -16,4 +18,7 @@ ul {
 }
 p#beige {
   background-color: black;
+}
+a img {
+  width: 200px;
 }
