@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Frank Ruehl CLM";
+  font-family: "Frank Ruehl CLM", Georgia, serif;
   font-size: 1.2rem;
   background-color: var(--beige);
   max-width: 800px;
