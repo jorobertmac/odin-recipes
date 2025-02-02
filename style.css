@@ -12,13 +12,32 @@ body {
   font-family: "Frank Ruehl CLM";
   font-size: 1.2rem;
   background-color: var(--beige);
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  padding: 1em;
+  color: var(--brown);
 }
-ul {
-  background-color: var(--brown);
+h1 {
+  color: var(--sage);
+}
+h2 {
+  color: var(--terracotta);
+}
+div {
+  border: .3em, solid, var(--gray);
+  padding: 1em;
+  margin: .25em;
 }
 p#beige {
   background-color: black;
 }
 a img {
   width: 200px;
+}
+ul, ol {
+  text-align: justify;
+}
+::marker {
+  color: var(--gold)
 }
