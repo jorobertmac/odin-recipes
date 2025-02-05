@@ -34,7 +34,8 @@ div {
 }
 .ingredients, .instructions {
   display: inline-block;
-  max-width: 50%;
+  box-sizing: border-box;
+  max-width: 49%;
   vertical-align: top;
 }
 a img {
