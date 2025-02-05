@@ -7,6 +7,9 @@
   --brown: rgb(104, 73, 50); /* Rustic Brown (Text/Depth) */
   --gray: rgb(200, 190, 180); /* Soft Gray (Subtle Text or Borders) */
 }
+html {
+  box-sizing: border-box;
+}
 
 body {
   font-family: "Frank Ruehl CLM", Georgia, serif;
@@ -27,7 +30,12 @@ h2 {
 div {
   border: .3em, solid, var(--gray);
   padding: 1em;
-  margin: .25em;
+  margin: .25em auto;
+}
+.ingredients, .instructions {
+  display: inline-block;
+  max-width: 50%;
+  vertical-align: top;
 }
 a img {
   width: 200px;
@@ -37,4 +45,10 @@ ul, ol {
 }
 ::marker {
   color: var(--gold)
+}
+.color-list {
+  text-align: center;
+}
+.colors::marker{
+  content: none;
 }
