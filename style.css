@@ -7,7 +7,7 @@
   --brown: rgb(104, 73, 50); /* Rustic Brown (Text/Depth) */
   --gray: rgb(200, 190, 180); /* Soft Gray (Subtle Text or Borders) */
 }
-html {
+* {
   box-sizing: border-box;
 }
 
