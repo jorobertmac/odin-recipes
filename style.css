@@ -18,7 +18,6 @@ body {
   max-width: 800px;
   text-align: center;
   margin: auto;
-  padding: 1em;
   color: var(--brown);
 }
 h1 {
