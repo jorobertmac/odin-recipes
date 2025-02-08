@@ -15,7 +15,7 @@ body {
   font-family: "Frank Ruehl CLM", Georgia, serif;
   font-size: 1.2rem;
   background-color: var(--beige);
-  max-width: 800px;
+  max-width: 90vw;
   text-align: center;
   margin: auto;
   color: var(--brown);
@@ -34,7 +34,7 @@ div {
 .ingredients, .instructions {
   display: inline-block;
   box-sizing: border-box;
-  max-width: 49%;
+  width: 49%;
   vertical-align: top;
 }
 .icon {
